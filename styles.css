@@ -1,0 +1,56 @@
+body{
+    background-color: #1E3F66;
+    color: white;
+  }
+  .all-secs{
+    background-color: rgba(21, 34, 56, 0.7);
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px 0 10px 0;
+  }
+  .heading{
+    text-align: center;
+    padding-top: 10px;
+  }
+  .sec1, .sec2{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 30px auto;
+  }
+  .sec1 label, input{
+    margin-top: 5px;
+  }
+  .sec2 label, input{
+    margin-bottom: 5px;
+  }
+  .sec3{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 0 auto;
+  }
+  .radio, .checkbox{
+    margin: 20px 0.8em 0 0;
+  }
+  .sec4{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 30px auto;
+  }
+  .sec5{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 0 auto;
+  }
+  .texta{
+    margin: 8px auto;
+  }
+  .sec6{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin: 30px auto;
+  }

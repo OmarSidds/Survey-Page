@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <title>freeCodeCamp Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="heading">
+    <h1 id="title">FreeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+</div>
+
+<div class="all-secs">
+<div class="sec1">
+  <label id="name-label">Name</label>
+  <input id="name" type="text" required placeholder="Enter your name">
+
+  <label id="email-label">Email</label>
+  <input id="email" type="email" required placeholder="Enter your email">
+
+  <label id="number-label">Age (optional)</label>
+  <input id="number" pattern="[0-9]+" min="1" max="100" placeholder="Age" type="number">
+</div>
+
+<div class="sec2">
+  <label for="dropdown">Which option best describes your current role?</label>
+  <select id="dropdown">
+    <option id="student">Student</option>
+    <option id="full-time-job">Full Time Job</option>
+    <option id="full-time-learner">Full Time Learner</option>
+    <option id="prefer-not-to-say">Perfer not to say</option>
+    <option id="other">Other</option>
+  </select>
+</div>
+
+<div class="sec3">
+  <label>What you reccomend freeCodeCamp?</label>
+  <label><input type="radio" value="definitely" name="recommend" class="radio">Definitely</input></label>
+  <label><input type="radio" value="maybe" name="recommend" class="radio">Maybe</input></label>
+  <label><input type="radio" value="not-sure" name="recommend" class="radio">Not sure</input></label>
+</div>  
+
+<div class="sec4">
+  <label>What would you like to see improved? (Check all that apply)</label>
+  <label><input type="checkbox" value="front-end" class="checkbox">Front-end Projects</input></label>
+  <label><input type="checkbox" value="back-end" class="checkbox">Back-end Projects</input></label>
+  <label><input type="checkbox" value="front-end" class="checkbox">Data Visualizations</input></label>
+  <label><input type="checkbox" value="challenges" class="checkbox">Challenges</input></label>
+  <label><input type="checkbox" value="open-source" class="checkbox">Open Source Community</input></label>
+</div>
+
+<div class="sec5">
+<label>Any comments or suggestions?<textarea id="message" name="message" rows="4" cols="40" class="texta"></textarea></label>
+</div>
+
+<div class="sec6">
+  <input id="submit" type="submit" value="Submit">
+</div>
+</div>
+
+</form>
+</body>
+
+</html>
